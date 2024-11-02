@@ -5,7 +5,7 @@ const value= ref('');
 
 </script>
 <template>
-    <div class="my-2 w-25">
+    <div class="my-2 p-4 w-full">
         <input class="bg-gray-100 p-4 rounded-xl w-full" :type="type" v-model="value" :placeholder="name">
     </div>
 </template>
